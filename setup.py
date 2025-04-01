@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="requestz",  # Mimicking the popular 'requests' package
+    name="requestz",  # 模仿requests包名
     version="0.1.0",
     author="Example Author",
     author_email="author@example.com",
@@ -10,7 +10,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[
-        "requests>=2.25.0",  # Actually depending on the real package
+        "requests>=2.25.0",  # 安装requests依赖
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
